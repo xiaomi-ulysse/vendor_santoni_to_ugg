@@ -1,0 +1,10 @@
+ui_print("                Ugg Vendor Patch                ");
+ui_print("         by ghiffaryr @ xda-developers          ");
+ui_print("   for porting santoni treble based rom only    ");
+mount("ext4", "/dev/block/bootdevice/by-name/cust", "/vendor");
+package_extract_dir("vendor", "/vendor");
+delete("/vendor/lib/hw/fingerprint.msm8937.so");
+set_perm(0, 0, 0755, "/vendor/bin/fingerprintd");
+set_perm(0, 0, 0755, "/vendor/bin/goodixfingerprintd");
+ui_print("                                                ");
+ui_print("Done!");
