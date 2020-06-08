@@ -1,0 +1,9 @@
+ui_print("                Ugg Vendor Patch                ");
+ui_print("         by ghiffaryr @ xda-developers          ");
+ui_print("  for porting santoni non-treble based rom only ");
+ui_print("                                                ");
+ui_print("Patching camera driver");
+mount("ext4", "/dev/block/bootdevice/by-name/system", "/system");
+package_extract_dir("vendor", "/system/system/vendor");
+ui_print("                                                ");
+ui_print("Done!");
