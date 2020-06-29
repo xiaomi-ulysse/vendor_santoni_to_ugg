@@ -4,6 +4,7 @@ for porting santoni non-treble based rom only
 ## Instruction to Build Patch
 ```
 $ git clone https://github.com/ghiffaryr/vendor_santoni_to_ugg.git -b non-treble_camera_patch
+$ cd vendor_santoni_to_ugg
 $ 7z a vendor_patch_non-treble_ugg_camera_after_flashing_magisk.zip
 ```
 ## Patch Status
@@ -28,4 +29,4 @@ Rear Camera  | 13.0 MP, LED flash
 Front Camera | 16.0 MP
 Release Date | November 2017
 
-![Xiaomi Redmi Note 5A / Y1 Prime](https://souqcms.s3.amazonaws.com/spring/images/2017/Xiaomi/Redmi-Note-5A-Dual-Sim/4-Redmi-Note-5A-Dual-Sim-Grey.jpg "Xiaomi Redmi Note 5A/Y1 Prime")
+![Xiaomi Redmi Note 5A / Y1 Prime](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-5a-1.jpg "Xiaomi Redmi Note 5A/Y1 Prime")
